@@ -70,9 +70,9 @@
         //    - Should print each line in the format: "1 * number = result"
         static void DisplayMultiplicationTable(int number)
         {
-            for (int i = 1; i <= 12; i++)
+            for (int i = 1; i <= 12; i++ )
             {
-                Console.WriteLine($"1 * {number} = {number * i}");
+                Console.WriteLine($"{i} * {number} = {number * i}");
             }
         }
 
